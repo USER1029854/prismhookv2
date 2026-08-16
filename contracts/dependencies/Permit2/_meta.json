@@ -1,0 +1,30 @@
+{
+  "label": "Permit2 (standing allowance: POSM can pull up to 4454 PRISM from hook)",
+  "address": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+  "ContractName": "Permit2",
+  "CompilerVersion": "v0.8.17+commit.8df45f5f",
+  "OptimizationUsed": "1",
+  "Runs": "1000000",
+  "EVMVersion": "Default",
+  "Proxy": "0",
+  "Implementation": "",
+  "LicenseType": "",
+  "verified": true,
+  "runtime_codesize_bytes": 9152,
+  "ConstructorArguments": "",
+  "source_files": [
+    "lib/solmate/src/tokens/ERC20.sol",
+    "lib/solmate/src/utils/SafeTransferLib.sol",
+    "src/AllowanceTransfer.sol",
+    "src/EIP712.sol",
+    "src/Permit2.sol",
+    "src/PermitErrors.sol",
+    "src/SignatureTransfer.sol",
+    "src/interfaces/IAllowanceTransfer.sol",
+    "src/interfaces/IERC1271.sol",
+    "src/interfaces/ISignatureTransfer.sol",
+    "src/libraries/Allowance.sol",
+    "src/libraries/PermitHash.sol",
+    "src/libraries/SignatureVerification.sol"
+  ]
+}

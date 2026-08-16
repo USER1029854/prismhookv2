@@ -1,0 +1,136 @@
+{
+  "live_token_id": 562,
+  "pendingFees(live_id)": {
+    "owedETH": "1868632586542329",
+    "owedPRISM": "9131381986522127"
+  },
+  "pending_holder_tested": "0x98f0c75ac05a9c578a6b97dcbe4fb458477a8995",
+  "simulations": [
+    {
+      "call": "pokeFees()",
+      "from": "0x1111111111111111111111111111111111111111",
+      "result": "SUCCESS",
+      "returndata": "0x",
+      "note": "permissionless fee collection"
+    },
+    {
+      "call": "claim(uint256)",
+      "from": "0x1111111111111111111111111111111111111111",
+      "result": "SUCCESS",
+      "returndata": "0x",
+      "note": "claim live id 562 from stranger -> credits OWNER not caller"
+    },
+    {
+      "call": "claimMany(uint256[])",
+      "from": "0x1111111111111111111111111111111111111111",
+      "result": "SUCCESS",
+      "returndata": "0x",
+      "note": "batch claim from stranger"
+    },
+    {
+      "call": "withdrawPending()",
+      "from": "0x1111111111111111111111111111111111111111",
+      "result": "SUCCESS",
+      "returndata": "0x",
+      "note": "stranger has no pending -> no-op success"
+    },
+    {
+      "call": "withdrawPendingTo(address)",
+      "from": "0x1111111111111111111111111111111111111111",
+      "result": "SUCCESS",
+      "returndata": "0x",
+      "note": "no-op success"
+    },
+    {
+      "call": "syncNFTs(uint256)",
+      "from": "0x1111111111111111111111111111111111111111",
+      "result": "SUCCESS",
+      "returndata": "0x",
+      "note": "stranger holds 0 PRISM -> no-op success"
+    },
+    {
+      "call": "withdrawPending()",
+      "from": "0x98f0c75ac05a9c578a6b97dcbe4fb458477a8995",
+      "result": "SUCCESS",
+      "returndata": "0x",
+      "note": "holder 0x98f0c75ac05a9c578a6b97dcbe4fb458477a8995 withdraws pendingETH=0.001132 pendingPRISM=0.007535"
+    },
+    {
+      "call": "withdrawPendingTo(address)",
+      "from": "0x1111111111111111111111111111111111111111",
+      "result": "REVERT",
+      "revert": "ExcludedRecipient()",
+      "note": "route fees to PoolManager -> ExcludedRecipient"
+    },
+    {
+      "call": "withdrawPendingTo(address)",
+      "from": "0x1111111111111111111111111111111111111111",
+      "result": "REVERT",
+      "revert": "TransferToZero()",
+      "note": "route to zero -> TransferToZero"
+    },
+    {
+      "call": "handleNFTTransfer(address,address,uint256,address)",
+      "from": "0x1111111111111111111111111111111111111111",
+      "result": "REVERT",
+      "revert": "MirrorOnly()",
+      "note": "non-mirror -> MirrorOnly"
+    },
+    {
+      "call": "handleNFTApprove(address,uint256,address)",
+      "from": "0x1111111111111111111111111111111111111111",
+      "result": "REVERT",
+      "revert": "MirrorOnly()",
+      "note": "non-mirror -> MirrorOnly"
+    },
+    {
+      "call": "seed(uint160,int24,int24,uint128)",
+      "from": "0x1111111111111111111111111111111111111111",
+      "result": "REVERT",
+      "revert": "Unauthorized()",
+      "note": "stranger cannot seed -> Unauthorized(owner=0)"
+    },
+    {
+      "call": "seed(uint160,int24,int24,uint128)",
+      "from": "0xfe76f05a01163e5c90329a0d1a2c8e389fd0f110",
+      "result": "REVERT",
+      "revert": "Unauthorized()",
+      "note": "ex-owner (renounced) cannot re-seed -> Unauthorized/AlreadySeeded"
+    },
+    {
+      "call": "syncNFTs(uint256)",
+      "from": "0x000000000004444c5dc75cb358380d2e3de08a90",
+      "result": "REVERT",
+      "revert": "ExcludedRecipient()",
+      "note": "excluded address caller -> ExcludedRecipient"
+    },
+    {
+      "call": "claim(address,uint256,bytes32[])",
+      "from": "0x1111111111111111111111111111111111111111",
+      "result": "REVERT",
+      "revert": "InvalidProof()",
+      "note": "bogus proof -> InvalidProof"
+    },
+    {
+      "call": "claim(address,uint256,bytes32[])",
+      "from": "0x1111111111111111111111111111111111111111",
+      "result": "REVERT",
+      "revert": "AlreadyClaimed()",
+      "note": "already-claimed acct -> AlreadyClaimed"
+    },
+    {
+      "call": "setToken(address)",
+      "from": "0x1111111111111111111111111111111111111111",
+      "result": "REVERT",
+      "revert": "NotDeployer()",
+      "note": "stranger cannot set token -> NotDeployer"
+    },
+    {
+      "call": "setToken(address)",
+      "from": "0xfe76f05a01163e5c90329a0d1a2c8e389fd0f110",
+      "result": "REVERT",
+      "revert": "TokenLocked()",
+      "note": "deployer cannot re-point now (tokenFinal) -> TokenLocked"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "label": "PrismMigration (MIGRATION_VAULT, holds 89% supply)",
+  "address": "0xdf0a7ec235fb104e5b3e7426da7709186a809d47",
+  "ContractName": "PrismMigration",
+  "CompilerVersion": "v0.8.26+commit.8a97fa7a",
+  "OptimizationUsed": "1",
+  "Runs": "200",
+  "EVMVersion": "cancun",
+  "Proxy": "0",
+  "Implementation": "",
+  "LicenseType": "",
+  "verified": true,
+  "runtime_codesize_bytes": 1824,
+  "ConstructorArguments": "2cd60218d3f802a855996dbcbf7db5db860f88c541468c7601e02e627d33e12f000000000000000000000000fe76f05a01163e5c90329a0d1a2c8e389fd0f110",
+  "source_files": [
+    "src/PrismMigration.sol"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "label": "PrismMirror (ERC-721 facade, deployed by hook)",
+  "address": "0xc1e66f065ee0960e2ee4e1d7c1b3b48a9972bacc",
+  "ContractName": "PrismMirror",
+  "CompilerVersion": "v0.8.26+commit.8a97fa7a",
+  "OptimizationUsed": "1",
+  "Runs": "200",
+  "EVMVersion": "cancun",
+  "Proxy": "0",
+  "Implementation": "",
+  "LicenseType": "",
+  "verified": true,
+  "runtime_codesize_bytes": 3352,
+  "ConstructorArguments": "000000000000000000000000cf4d29f14cc585ddd1167f956092852af844e040",
+  "source_files": [
+    "src/PrismMirror.sol"
+  ]
+}

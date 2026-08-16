@@ -1,0 +1,86 @@
+[
+  {
+    "file": "lib/solady/src/auth/Ownable.sol",
+    "repo": "Vectorized/solady",
+    "status": "IDENTICAL-GITHUB@main",
+    "target_sha": "a74625ee15f4872b",
+    "github_sha": "a74625ee15f4872b"
+  },
+  {
+    "file": "lib/solady/src/tokens/ERC20.sol",
+    "repo": "Vectorized/solady",
+    "status": "IDENTICAL-GITHUB@main",
+    "target_sha": "0b96ce470f2ab3fa",
+    "github_sha": "0b96ce470f2ab3fa"
+  },
+  {
+    "file": "lib/solady/src/utils/Base64.sol",
+    "repo": "Vectorized/solady",
+    "status": "DIFF-vs-main",
+    "target_sha": "e36796deff15768d",
+    "github_sha": "af3428bd51d4659d"
+  },
+  {
+    "file": "lib/solady/src/utils/LibBytes.sol",
+    "repo": "Vectorized/solady",
+    "status": "DIFF-vs-main",
+    "target_sha": "163fbab6b2c84609",
+    "github_sha": "99b62c61b58bd7de"
+  },
+  {
+    "file": "lib/solady/src/utils/LibString.sol",
+    "repo": "Vectorized/solady",
+    "status": "DIFF-vs-main",
+    "target_sha": "af977db918909a91",
+    "github_sha": "89616f68784d3256"
+  },
+  {
+    "file": "lib/solady/src/utils/ReentrancyGuard.sol",
+    "repo": "Vectorized/solady",
+    "status": "IDENTICAL-GITHUB@main",
+    "target_sha": "aeeda18221419e34",
+    "github_sha": "aeeda18221419e34"
+  },
+  {
+    "file": "lib/v4-periphery/lib/v4-core/src/interfaces/IHooks.sol",
+    "repo": "Uniswap/v4-core",
+    "status": "IDENTICAL-GITHUB@main",
+    "target_sha": "6eb35c9c598eb932",
+    "github_sha": "6eb35c9c598eb932"
+  },
+  {
+    "file": "lib/v4-periphery/lib/v4-core/src/interfaces/IPoolManager.sol",
+    "repo": "Uniswap/v4-core",
+    "status": "IDENTICAL-GITHUB@main",
+    "target_sha": "a98405333567e4ab",
+    "github_sha": "a98405333567e4ab"
+  },
+  {
+    "file": "lib/v4-periphery/lib/v4-core/src/libraries/Hooks.sol",
+    "repo": "Uniswap/v4-core",
+    "status": "IDENTICAL-GITHUB@main",
+    "target_sha": "297d577998cdede6",
+    "github_sha": "297d577998cdede6"
+  },
+  {
+    "file": "lib/v4-periphery/lib/v4-core/src/types/PoolOperation.sol",
+    "repo": "Uniswap/v4-core",
+    "status": "IDENTICAL-GITHUB@main",
+    "target_sha": "cf72ad0c3e5e9166",
+    "github_sha": "cf72ad0c3e5e9166"
+  },
+  {
+    "file": "lib/v4-periphery/src/libraries/Actions.sol",
+    "repo": "Uniswap/v4-periphery",
+    "status": "DIFF-vs-main",
+    "target_sha": "5e1cec2ea282ad48",
+    "github_sha": "c5f2579951a1d7ca"
+  },
+  {
+    "file": "lib/v4-periphery/src/libraries/PositionInfoLibrary.sol",
+    "repo": "Uniswap/v4-periphery",
+    "status": "IDENTICAL-GITHUB@main",
+    "target_sha": "6abfa1c06d62753d",
+    "github_sha": "6abfa1c06d62753d"
+  }
+]
