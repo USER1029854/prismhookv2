@@ -1,0 +1,60 @@
+{
+  "hook": {
+    "owner": "0x0000000000000000000000000000000000000000",
+    "seeded": "True",
+    "forfeitNextCollection": "False",
+    "hookPositionTokenId": "356052",
+    "totalShares": "3834",
+    "accFeesPerShareETH": "2522929283711133864249308047",
+    "accFeesPerSharePRISM": "20472854562302818695100574599",
+    "mirror": "0xc1e66f065ee0960e2ee4e1d7c1b3b48a9972bacc",
+    "POSM": "0xbd216513d74c8cf14cf4747e6aaa6420ff64ee9e",
+    "PERMIT2": "0x000000000022d473030f116ddee9f6b43ac78ba3",
+    "MIGRATION_VAULT": "0xdf0a7ec235fb104e5b3e7426da7709186a809d47",
+    "poolManager": "0x000000000004444c5dc75cb358380d2e3de08a90",
+    "decimals": "18",
+    "totalSupply": "5000000000000000000000",
+    "globalTickLower": "-887200",
+    "globalTickUpper": "44800",
+    "balanceOf(hook)": "13263495993709643980",
+    "balanceOf(migration)": "742403850415848700236",
+    "balanceOf(burn)": "8776475872592768077",
+    "balanceOf(poolMgr)": "215948856224855879110",
+    "balanceOf(owner)": "1667920547057538734",
+    "balanceOf(posm)": "0",
+    "ETH_balance": "3173108424743445004"
+  },
+  "migration": {
+    "deployer": "0xfe76f05a01163e5c90329a0d1a2c8e389fd0f110",
+    "token": "0xcf4d29f14cc585ddd1167f956092852af844e040",
+    "tokenFinal": "True",
+    "merkleRoot": "0x2cd60218d3f802a855996dbcbf7db5db860f88c541468c7601e02e627d33e12f",
+    "PRISM_balance_via_hook": "742403850415848700236",
+    "ETH_balance": "0"
+  },
+  "pool": {
+    "poolId": "0x30850e19afc43b95e41b1fe35185762b4b631e63d07e91b0300c6e0c8cbf7146",
+    "poolManager_ETH_balance": "46001794661724500125674",
+    "poolManager_PRISM_balance": "215948856224855879110",
+    "stateview_addr": "0x7ffe42c4a5deea5b0fec41c94c136cf115597227",
+    "getLiquidity": "204958960128548666643",
+    "getSlot0 (sqrtPriceX96,tick,protoFee,lpFee)": [
+      "140079099629789245391950410766",
+      "11398",
+      "0",
+      "10000"
+    ]
+  },
+  "posm_position": {
+    "hookPositionTokenId": "356052",
+    "ownerOf(tokenId)": "0xcf4d29f14cc585ddd1167f956092852af844e040"
+  },
+  "permit2": {
+    "allowance(hook, PRISM, POSM)": [
+      "4454677055888032075335",
+      "281474976710655",
+      "0"
+    ],
+    "erc20_allowance(hook->permit2)": "115792089237316195423570985008687907853269984665640564039457584007913129639935"
+  }
+}

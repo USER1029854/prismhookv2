@@ -1,0 +1,135 @@
+{
+  "migration_claims": {
+    "count": 321,
+    "distinct_recipients": 321,
+    "total_claimed_wei": "3712273205471183375095",
+    "total_claimed_PRISM": 3712.2732054711837,
+    "largest": [
+      [
+        "0x8347ca89c40b139e8e9b38d82d7b799a3db68605",
+        287239345896629340786
+      ],
+      [
+        "0xfe507becc31812b1cbfbcc1011928242560e4e9b",
+        228039870809003133177
+      ],
+      [
+        "0xd0dd44488469e5daaaa095a6964888298cd5e710",
+        144905785497495936114
+      ],
+      [
+        "0xfe7382a023ecd5be95efada9abd3ae6e52c94a38",
+        140115605999036826661
+      ],
+      [
+        "0x38c009b2961842340b1e8c90dc6223bcf5795b4a",
+        129941624876669693645
+      ],
+      [
+        "0x62a50fcef3985d1620aedd7b4e36f47ba74e6974",
+        113521852840749571649
+      ],
+      [
+        "0x01467c420df8d9556fe5dbbf02b0c25c42226558",
+        88130749436975121928
+      ],
+      [
+        "0x1cfbe10106c1beb61d9679207ab767244fbd85c7",
+        83978080435090591712
+      ],
+      [
+        "0x40b1e5818b449db3a7bb0fe482b5784f77fcd2c0",
+        73250751374851588203
+      ],
+      [
+        "0x6d7823cd5c3d9dcd63e6a8021b475e0c7c94b291",
+        71995458059079800270
+      ]
+    ],
+    "sample_first5": [
+      [
+        "0xf2979e5221bd96b5621dec1c09cccf2517b29ec8",
+        67.09341653520755
+      ],
+      [
+        "0x8347ca89c40b139e8e9b38d82d7b799a3db68605",
+        287.23934589662935
+      ],
+      [
+        "0x1064aa646a7aedbd40816fc0c35e044d0244a764",
+        21.083240172282466
+      ],
+      [
+        "0x97b01a52024468b196fb3142f2883ff926c3afc9",
+        9.3111237325583
+      ],
+      [
+        "0xe8ad013e3b3e6d5c568145edada0dad60cc70130",
+        57.45274726648668
+      ]
+    ]
+  },
+  "migration_tokenset": [
+    {
+      "token": "0xcf4d29f14cc585ddd1167f956092852af844e040",
+      "block": 25646647,
+      "tx": "0x9d8b276d3d701326372b35cfd863a7839d1a278fc8c2959d3524cb7797e646ab"
+    }
+  ],
+  "hook_seeded": [
+    {
+      "posmTokenId": 356052,
+      "sqrtPriceX96": "744133035780855425119189031190",
+      "liquidity": "58060767042176831420",
+      "block": 25646558,
+      "tx": "0xaf26f2b925b19b4ccf5ea43b52f6e766a67bfc2ed76da2b294665bbf5e27cdbd"
+    }
+  ],
+  "pending_credited_events": 1000,
+  "distinct_pending_holders": 101,
+  "_holders_sample": [
+    "0x98f0c75ac05a9c578a6b97dcbe4fb458477a8995",
+    "0x54e8b3ba0e123afb71a7a92c665f010da8ac0ca6",
+    "0x2f0a1f9b8d9a26be553122ce6bfb83e91e18e045",
+    "0x3052669fe5beb9f2d1bda32f54f2e32d5b30cffa",
+    "0xb0d4c667e32502420f041095312217d90d44fdcb",
+    "0xbc0e9a8bfea40ad4e9b56e1dbd89e4960a58cdc4",
+    "0x578a7f0798b8cb0f1ea6609ffc4c0bf2b9125fc0",
+    "0x1c10cbbc532e4649e48a8b140ccb670555ab599d",
+    "0x3c6090b2869e89aad791ad466272438820eb117b",
+    "0x9d348d277ebd4b3136b2698e44438348e6efba90",
+    "0xd1f78f0215c5f735b4f9627737c103898158afaa",
+    "0x2a8f874417159f163611455f78b7ec079c19f085",
+    "0xb51ff2f65b935142aab32abefa1c0e29a4161d31",
+    "0x77c17fc77c66b2dae04ce2cf3a6fe35912a599d3",
+    "0xd719b156d08e11523da7c326a17ecbfbc7689b07",
+    "0xd03da4452bf9478c67a54c56d46678d55a8d9483",
+    "0x82fc58011d50bfda0dd10bbecab41803a7758939",
+    "0x3311e8c1f5006970b17fb9a823522387c4e17e38",
+    "0x29496b7bf2595db8d71c3c15548cab8f85b04771",
+    "0xa6b1b92e104373eb41277f31258320eb89397a72",
+    "0x71fd3a4fdfc4d57ea9b455c2357403560dbdea3d",
+    "0x63d29b7d25efac0cb4edd2b8ec0fff00778706a2",
+    "0xf13176ece4ed8d9aa4c335cd4f247458d4863fe4",
+    "0xeafcb3d7128c81a948f9784529168127a7392d25",
+    "0x6d08df670b62fd2d0fea3f4c6c0c4de75bd6f15e",
+    "0xbb2dc061c271deccde0dfc8b804ae9ac7e598cce",
+    "0xb2b73e992b2d7d3612b140d5920a2a19bf2d0d10",
+    "0x8a3c26c0564da01152672184757007f0c5844788",
+    "0x6d0db8c738f5762b2124a39a004721c66fde20a3",
+    "0x2fe4093c894749e596f458764c377bf4f1337b58",
+    "0xea6e3feb351d1233fb641ac3c3609c7a6f6ef230",
+    "0x11ca9701430f3ef4f79c4aba3f722f6d3d115754",
+    "0xa98a29c75fd9acf4cfe358cd0b659d922c9b165f",
+    "0x2f665ec452584c730c97e6e00f52920eaeeb985c",
+    "0xa61c3eeb92452964d5f690fe1ded2da252c358e4",
+    "0x56ac22a67f8c5e89c0e1fe92585bc6e9263c5de6",
+    "0x40e56fa7759c1bdc67764fcd76c8ee7bc9486c08",
+    "0xad128b4fd496ca73eb54b93529a0519c875125ce",
+    "0x1d935f516d5008ff3153ab789258bf5d8cf604f5",
+    "0xda2818f6d8e8ecec3551c68275d93a1ec430c508"
+  ],
+  "pending_withdrawn_events": 138,
+  "fees_forfeited_events": 1,
+  "poke_collect_failed_events": 0
+}
